@@ -69,6 +69,7 @@ input {
 
 .info{
   max-height: 800px;
+  min-height: 800px;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: top center;
@@ -77,14 +78,29 @@ input {
 
 }
 .info-content{
-  max-width: 30%;
-  margin-top: 190px;
-  /* margin-left: auto; */
-  /* margin-right: auto; */
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 40px;
   transition: 5s;
-  margin-left: 100px;
+  max-height: 100px;
 }
 
+.movie-details{
+  width: 30%;
+  margin-right: 800px;
+}
+
+.top-movies-toggle {
+  display: grid;
+  justify-content: space-evenly;
+}
+
+.top-movies-toggle button {
+  max-height: 20px;
+  background-color: transparent;
+  border: none;
+  color: gainsboro;
+}
 
 @media only screen and (max-width: 500px){
   header {
