@@ -1,5 +1,5 @@
 body{
-  background-color: #090A0E;
+  background-color: #ffffff;
   color: white;
   font-family: Poppins;
 }
@@ -7,6 +7,8 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 30px;
+  height: 80px;
 }
 .title{
   font-size: 20px;
@@ -16,8 +18,7 @@ header {
   max-width: 65%;
   margin-left: auto;
   margin-right: auto;
-  transition: 5s;
-  
+  transition: 5s; 
 }
 
 input {
@@ -26,15 +27,9 @@ input {
   transition: 0.4s;
   width: 525px;
   height: 36px;
-  top: 22px;
-  left: 493px;
   padding: 6px 10px 6px 10px;
   border-radius: 6px;
-  border: 2px;
-}
-
-input:focus{
-  border-radius: 20px;
+  border: 5px solid #ffffff00;
 }
 
 .container{
@@ -73,7 +68,7 @@ input:focus{
 }
 
 .info{
-  min-height: 500px;
+  max-height: 800px;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: top center;
@@ -82,12 +77,12 @@ input:focus{
 
 }
 .info-content{
-  max-width: 65%;
+  max-width: 30%;
   margin-top: 190px;
-  margin-left: auto;
-  margin-right: auto;
+  /* margin-left: auto; */
+  /* margin-right: auto; */
   transition: 5s;
-  align-content: end;
+  margin-left: 100px;
 }
 
 
